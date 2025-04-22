@@ -17,7 +17,21 @@
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         .iframe-wrapper iframe {
+            width: 100%;
+            min-height: 500px;
             border: none;
+        }
+
+        @media (min-width: 768px) {
+            .iframe-wrapper iframe {
+                min-height: 700px;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .iframe-wrapper iframe {
+                min-height: 800px;
+            }
         }
     </style>
 </head>
